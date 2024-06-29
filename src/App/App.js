@@ -1,10 +1,19 @@
 import './App.css';
+import SearchBar from '../SearchBar/SearchBar'
 
 function App() {
+
+//Stuff here when
+
   return (
-    <div className="App">
-          <h1>Hello!</h1>
+    
+    <div>
+       <h1>Jammming</h1>
+      <div className='App'>
+        <SearchBar />
+      </div>
     </div>
+
   );
 };
 
