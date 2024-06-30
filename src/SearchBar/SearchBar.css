@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: column;
     padding-top: 4.94rem;
-    margin-bottom: 6.33rem;
+    margin-bottom: 3.33rem;
 
 }
 
@@ -13,18 +13,20 @@
     height: 2rem;
 }
 
+.SearchButton:active {
+    color: green;
+}
+
 .SearchButton:hover {
     background-color: rgba(108, 65, 233, .7);
-   
 }
 
 .SearchBar input {
     width: 287px;
+    text-align: center;
+    font-size: 1rem;
     padding: .88rem 0;
     border: 1px solid #fff;
     border-radius: 3px;
     margin-bottom: 2.22rem;
-    color: #01f0c3f;
-    text-align: center;
-    font-size: 1rem;
 }

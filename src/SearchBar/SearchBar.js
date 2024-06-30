@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './SearchBar.css';
 
 
-function SearchBar () {
+function SearchBar (props) {
 
     const [term, setTerm] = useState('hi');
 
     const handleTermChange = (e) => {
         setTerm(e.target.value)
     }
+
 
     return (
         <div className= 'SearchBar'>

@@ -2,7 +2,35 @@ body {
   background-color: black;
   color: rgb(28, 179, 28);
   text-align: center;
-};
+}
 
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 
+}
 
+.Title {
+  display: flex;
+  justify-content: left;
+  margin: 1px;
+  height: 40px;
+  align-items: center;
+}
+
+h3 {
+  margin: 1px;
+  display: flex;
+}
+
+.box {
+  width: 50%;
+  margin: 8px;
+}
+
+.container-box {
+  width: 100%;
+  border: solid 3px rgb(28, 179, 28);
+ 
+}

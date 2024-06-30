@@ -1,0 +1,7 @@
+Button:active {
+    color: green;
+}
+
+Button:hover {
+    background-color: rgba(108, 65, 233, .7);
+}
