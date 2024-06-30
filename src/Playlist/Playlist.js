@@ -11,7 +11,7 @@ function Playlist (props) {
                 <button>Save Playlist!</button>
             </div>
             <div className='container-box'>
-                <Tracklist isRemoval = {true}/>
+               
             </div>
         </div>
         

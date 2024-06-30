@@ -11,41 +11,15 @@ function App() {
 
 const [searchResult, setSearchResult] = useState([]);
 
-const search = useEffect(() => {
-  setSearchResult([{
-    id: 1,
-    name: 'Song 1',
-    Artist: 'Artist 1',
-    Album: 'Album 1'
-  },
-  {
-    id: 4,
-    name: 'Song 4',
-    Artist: 'Artist 4',
-    Album: 'Album 4'
-  },
-  {
-    id: 3,
-    name: 'Song 3',
-    Artist: 'Artist 3',
-    Album: 'Album 3'
-  },
-  {
-    id: 2,
-    name: 'Song 2',
-    Artist: 'Artist 2',
-    Album: 'Album 2'
-  }])
-}, [])
 
 //Stuff here when
-
+console.log(searchResult)
   return (
     
     <div>
        <h1>Jammming</h1>
       <div className='App'>
-        <SearchBar onSearch = {search}/>
+        <SearchBar />
         <div className = 'container'>
           <SearchResult searchResult = {searchResult}/>
           <Playlist />
