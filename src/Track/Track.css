@@ -1,11 +1,11 @@
 .Track button {
     border-radius: 50%;
-    
+    margin-right: 10px;
 }
 
 .Track {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -13,3 +13,9 @@
     margin-right: 5px;
     border: solid 1px green;
 }
+
+.Track p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+

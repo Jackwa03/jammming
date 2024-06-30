@@ -13,7 +13,7 @@ function SearchResults (props) {
                 <h3>Songs</h3>
             </div>
             <div className = 'container-box'>
-                <Tracklist tracks = {props.searchResult}/>
+                <Tracklist tracks = {props.searchResult} onAdd = {props.onAdd}/>
             </div>
         </div>
     )
