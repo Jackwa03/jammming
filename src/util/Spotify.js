@@ -1,5 +1,5 @@
 const clientId = '2428a37983d74c0a98a99fa4024fe83a'; 
-const redirectUri = 'http://localhost:3000/'; 
+const redirectUri = 'https://jammming-wheat.vercel.app/'; 
 let accessToken;
 
 const Spotify = {
